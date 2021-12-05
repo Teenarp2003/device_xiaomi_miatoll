@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The The Kraken Project
+# Copyright (C) 2021 The PixelPlus-UI Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

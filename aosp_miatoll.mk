@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The The Kraken Project
+# Copyright (C) 2021 PixelPlus-UI Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -7,7 +7,7 @@
 # Inherit from miatoll  device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common Kraken stuff.
+# Inherit some common PixelPlus-UI Project stuff.
 $(call inherit-product, vendor/aosp/config/common.mk)
 
 # Bootanimation Resolution
@@ -24,8 +24,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 WITH_GMS := true
 
 # BUILD_TYPE
-KRAKEN_BUILD_TYPE := OFFICIAL
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.kraken.maintainer=TusharInd007
+
